@@ -49,11 +49,11 @@ int main()
     
     if(isPrime(numrecieved))
     {
-        write(clientsocket,"Number is prime \n",sizeof("Number is prime"));
+        write(clientsocket,"Number is prime\n",sizeof("Number is prime"));
     }
     else
     {
-        write(clientsocket,"Number is not prime \n",sizeof("Number is not prime"));
+        write(clientsocket,"Number is not prime\n",sizeof("Number is not prime"));
     }
 
     close(clientsocket);
